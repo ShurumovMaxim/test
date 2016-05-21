@@ -7,7 +7,7 @@ void KY(int a, int b, int c, float *x1, float *x2)
 	  *x1=(-b-sqrt(D))/(2*a);
 	  *x2=(-b+sqrt(D))/(2*a);
 	  printf("\nRoots: ");
-	  printf("x1: %f    x2: %f",*x1,*x2);
+	  printf("x1: %f    x2: %f\n",*x1,*x2);
         }
 	else printf("Kornei net");
       }
