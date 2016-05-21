@@ -1,5 +1,5 @@
 project: KY
-	./KY
+#	./KY
 
 KY: mainKY.o KY.o
 	gcc mainKY.o KY.o -o KY -lm
