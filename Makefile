@@ -1,3 +1,6 @@
+test: testKY
+	./testKY
+	
 testKY: main.o KY.o unit-test.o
 	gcc main.o KY.o unit-test.o -o testKY -lm
 
