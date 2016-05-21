@@ -1,5 +1,5 @@
 testKY: main.o KY.o unit-test.o
-	gcc main.o KY.o unit-test.o -o testKY
+	gcc main.o KY.o unit-test.o -o testKY -lm
 
 main.o: main.c
 	gcc -c main.c
